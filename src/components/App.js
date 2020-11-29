@@ -7,8 +7,8 @@ function App() {
   );
   return (
     <div id="main">
-      <p id="para">{paragraph}</p>
       <button id="click" onClick={() => setparagraph(paragraph)}></button>
+      <p id="para">{paragraph}</p>
     </div>
   );
 }
