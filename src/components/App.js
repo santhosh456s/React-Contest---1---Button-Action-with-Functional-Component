@@ -7,10 +7,8 @@ function App() {
   );
   return (
     <div id="main">
-      <button id="click" onClick={() => setparagraph(paragraph)}>
-        click
-      </button>
-      <p id="para">paragraph: {paragraph}</p>
+      <button id="click" onClick={() => setparagraph(paragraph)}></button>
+      <p id="para">{paragraph}</p>
     </div>
   );
 }
